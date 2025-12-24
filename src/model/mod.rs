@@ -9,21 +9,22 @@
 //  backprop with optimizer
 
 
-pub struct Transformer {
+// pub struct Transformer {
     // lm head
     // blocks
     // final layer norm
     // embedding table of token + position
-}
+// }
 
-impl Transformer {
+// impl Transformer {
     // crate
-    pub fn new() -> Result<Transformer, Box<dyn Error>> {
-        println!("creating transformer...");
+    // pub fn new() -> Result<Transformer, Box<dyn Error>> {
+        // println!("creating transformer...");
 
-    }
+    // }
     
     // train
     
     // generate
-}
+// }
+pub mod linear;
