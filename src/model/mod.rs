@@ -6,5 +6,24 @@
 //  dropout
 //  connecting everything with blocks, residual connections
 //  evaluating loss, cross-entropy
-//  backpropation with optimizer
+//  backprop with optimizer
 
+
+pub struct Transformer {
+    // lm head
+    // blocks
+    // final layer norm
+    // embedding table of token + position
+}
+
+impl Transformer {
+    // crate
+    pub fn new() -> Result<Transformer, Box<dyn Error>> {
+        println!("creating transformer...");
+
+    }
+    
+    // train
+    
+    // generate
+}
